@@ -1,4 +1,4 @@
-const { client, createTables, createUser, createPlace,  fetchUsers, fetchPlaces,  createVacation, fetchVacations, destroyVacation} = require('./db');
+const { client, createTables, createUser, createPlace,  fetchUsers, fetchPlaces,  createVacation, fetchVacations, destroyVacation } = require('./db');
 
 const express = require('express');
 const app = express();
